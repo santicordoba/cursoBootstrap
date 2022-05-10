@@ -12,6 +12,49 @@ main .carousel-inner img{
     filter: grayscale(70%);
 }
 
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+.badge {
+    color:black;
+}
+
+.overlay .row,
+.overlay .container {
+    height: 100%;
+}
+
+.btn-success{
+    background-color: #97c93e;
+    border:none;
+}
+
+.btn-success:hover{
+    background-color: #7ca03f;
+}
+
+#place-time {
+    background-color: #343a40;
+    color: white
+}
+
+#place-time img {
+    max-width: 100%;
+    
+}
+
 #footer {
     background-color: #3B4248;
 }
